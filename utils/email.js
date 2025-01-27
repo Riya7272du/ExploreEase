@@ -4,7 +4,7 @@ const Mailgun = require("mailgun.js");
 const mailgun = new Mailgun(formData);
 const { convert } = require("html-to-text");
 
-const environment = process.env.NODE_ENV;  // Corrected this line
+const environment = process.env.NODE_ENV;
 console.log(environment);
 
 const mg = mailgun.client({

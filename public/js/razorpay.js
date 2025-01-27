@@ -1,5 +1,5 @@
 const bookBtn = document.getElementById("book-tour");
-console.log(bookBtn)
+
 if (bookBtn)
   bookBtn.addEventListener("click", (e) => {
     console.log("Book Button");
@@ -13,7 +13,7 @@ const bookTour = async (tourId) => {
     const { data } = await axios(
       `http://127.0.0.1:3000/api/v1/booking/checkout-session/${tourId}`
     );
-    // console.log(data);
+    console.log(data);
     const options = {
       key: data.key,
       amount: data.amount,
@@ -74,5 +74,3 @@ const showAlert = (type, msg) => {
   document.querySelector("body").insertAdjacentHTML("afterbegin", markup);
   window.setTimeout(hideAlert, 5000);
 };
-
-console.log(bookBtn);

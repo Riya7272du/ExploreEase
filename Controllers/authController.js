@@ -25,6 +25,7 @@ const createSendToken = (user, statusCode, res) => {
 
   user.password = undefined;
   res.cookie("jwt", token, cookieOptions);
+  console.log("Working");
   res.status(statusCode).json({
     status: "success",
     token,
@@ -36,9 +37,9 @@ const createSendToken = (user, statusCode, res) => {
 
 exports.signup = async (req, res, next) => {
   const newUser = await User.create(req.body);
-  // const url = `${req.protocol}://${req.get("host")}/me`;
-  // console.log(url);
-  // console.log(newUser.name.split(" "));
+  const url = `${req.protocol}://${req.get("host")}/me`;
+  console.log(url);
+  console.log(newUser.name.split(" "));
   // await new Email(newUser, url).sendWelcome();
   createSendToken(newUser, 201, res);
 };
@@ -50,14 +51,13 @@ exports.login = catchAsync(async (req, res, next) => {
     return next(new AppError("Please provide email and password", 400));
 
   const user = await User.findOne({ email: email }).select("+password");
-
   if (!user || !(await user.correctPassword(password, user.password)))
     return next(new AppError("Invalid email or password", 401));
 
   createSendToken(user, 200, res);
 });
 
-exports.protect = catchAsync(async (req, res, next) => {  
+exports.protect = catchAsync(async (req, res, next) => {
   let token;
   if (
     req.headers.authorization &&

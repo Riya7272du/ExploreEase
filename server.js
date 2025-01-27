@@ -1,6 +1,5 @@
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
-const cors = require('cors');
 
 process.on("uncaughtException", (err) => {
   console.log(err.name, err.message);
@@ -10,7 +9,10 @@ process.on("uncaughtException", (err) => {
 
 dotenv.config({ path: "./config.env" });
 
-const DB = process.env.Mongo_url;
+const DB = process.env.DATABASE.replace(
+  "<PASSWORD>",
+  process.env.DATABASE_PASSWORD
+);
 
 mongoose.connect(DB, {}).then(() => {
   console.log("DB connection successful");
@@ -18,7 +20,6 @@ mongoose.connect(DB, {}).then(() => {
 
 const app = require("./app");
 const PORT = 3000 || process.env.PORT;
-app.use(cors());
 
 console.log(`Environment : ${app.get("env")}`);
 

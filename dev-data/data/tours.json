@@ -1,77 +1,77 @@
 [
   {
     "startLocation": {
-      "description": "Miami, USA",
+      "description": "Alleppey, Kerala, India",
       "type": "Point",
-      "coordinates": [-80.185942, 25.774772],
-      "address": "301 Biscayne Blvd, Miami, FL 33132, USA"
+      "coordinates": [76.338848, 9.498066],
+      "address": "Alappuzha, Kerala, India"
     },
     "ratingsAverage": 4.8,
     "ratingsQuantity": 6,
     "images": ["tour-2-1.jpg", "tour-2-2.jpg", "tour-2-3.jpg"],
     "startDates": [
-      "2025-06-19T09:00:00.000Z",
-      "2025-07-20T09:00:00.000Z",
-      "2025-08-18T09:00:00.000Z"
+      "2026-06-19T09:00:00.000Z",
+      "2026-07-20T09:00:00.000Z",
+      "2026-08-18T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c2955",
-    "name": "The Sea Explorer",
+    "name": "Kerala Backwater",
     "duration": 7,
     "maxGroupSize": 15,
     "difficulty": "medium",
     "guides": ["5c8a22c62f8fb814b56fa18b", "5c8a1f4e2f8fb814b56fa185"],
-    "price": 497,
-    "summary": "Exploring the jaw-dropping US east coast by foot and by boat",
-    "description": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nIrure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price": 14999,
+    "summary": "Exploring the mesmerizing Kerala backwaters by houseboat and foot",
+    "description": "Embark on a 7-day adventure through the serene backwaters of Kerala, where you will glide through tranquil canals on traditional houseboats, explore lush landscapes, and experience local culture. Begin your journey in the picturesque town of Alleppey, cruise through Vembanad Lake, visit the famous Kumarakom Bird Sanctuary, and take a peaceful stroll on Pathiramanal Island. As you navigate through the emerald waters, you’ll witness Kerala’s unique ecosystem and wildlife. Conclude your tour with a relaxing day at Marari Beach. This tour offers a perfect blend of nature, relaxation, and adventure in the heart of Kerala’s backwaters.",
     "imageCover": "tour-2-cover.jpg",
     "locations": [
       {
         "_id": "5c88fa8cf4afda39709c2959",
-        "description": "Lummus Park Beach",
+        "description": "Vembanad Lake",
         "type": "Point",
-        "coordinates": [-80.128473, 25.781842],
+        "coordinates": [76.379661, 9.617122],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c2958",
-        "description": "Islamorada",
+        "description": "Kumarakom Bird Sanctuary",
         "type": "Point",
-        "coordinates": [-80.647885, 24.909047],
+        "coordinates": [76.434559, 9.626641],
         "day": 2
       },
       {
         "_id": "5c88fa8cf4afda39709c2957",
-        "description": "Sombrero Beach",
+        "description": "Pathiramanal Island",
         "type": "Point",
-        "coordinates": [-81.0784, 24.707496],
+        "coordinates": [76.413053, 9.612629],
         "day": 3
       },
       {
         "_id": "5c88fa8cf4afda39709c2956",
-        "description": "West Key",
+        "description": "Marari Beach",
         "type": "Point",
-        "coordinates": [-81.768719, 24.552242],
+        "coordinates": [76.299019, 9.616121],
         "day": 5
       }
     ]
   },
   {
     "startLocation": {
-      "description": "Banff, CAN",
+      "description": "Manali, Himachal Pradesh, India",
       "type": "Point",
-      "coordinates": [-115.570154, 51.178456],
-      "address": "224 Banff Ave, Banff, AB, Canada"
+      "coordinates": [77.188709, 32.239632],
+      "address": "Mall Road, Manali, Himachal Pradesh, India"
     },
     "ratingsAverage": 5,
     "ratingsQuantity": 9,
     "images": ["tour-1-1.jpg", "tour-1-2.jpg", "tour-1-3.jpg"],
     "startDates": [
-      "2025-04-25T09:00:00.000Z",
-      "2025-07-20T09:00:00.000Z",
-      "2025-10-05T09:00:00.000Z"
+      "2025-05-15T09:00:00.000Z",
+      "2025-08-10T09:00:00.000Z",
+      "2025-11-05T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c2951",
-    "name": "The Forest Hiker",
+    "name": "The Himalayan Hiker",
     "duration": 5,
     "maxGroupSize": 25,
     "difficulty": "easy",
@@ -80,40 +80,40 @@
       "5c8a201e2f8fb814b56fa186",
       "5c8a1f292f8fb814b56fa184"
     ],
-    "price": 397,
-    "summary": "Breathtaking hike through the Canadian Banff National Park",
-    "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 19999,
+    "summary": "Breathtaking hike through the stunning Himalayan mountain ranges",
+    "description": "Experience the tranquility and beauty of the Himalayas on this 5-day hiking adventure. Walk through scenic trails, enjoy panoramic views, and breathe the fresh mountain air. From Manali to picturesque mountain villages, this tour offers a perfect balance of adventure and relaxation.",
     "imageCover": "tour-1-cover.jpg",
     "locations": [
       {
         "_id": "5c88fa8cf4afda39709c2954",
-        "description": "Banff National Park",
+        "description": "Solang Valley",
         "type": "Point",
-        "coordinates": [-116.214531, 51.417611],
+        "coordinates": [77.156046, 32.320923],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c2953",
-        "description": "Jasper National Park",
+        "description": "Rohtang Pass",
         "type": "Point",
-        "coordinates": [-118.076152, 52.875223],
+        "coordinates": [77.180282, 32.36642],
         "day": 3
       },
       {
         "_id": "5c88fa8cf4afda39709c2952",
-        "description": "Glacier National Park of Canada",
+        "description": "Hampta Pass",
         "type": "Point",
-        "coordinates": [-117.490309, 51.261937],
+        "coordinates": [77.314846, 32.257837],
         "day": 5
       }
     ]
   },
   {
     "startLocation": {
-      "description": "Aspen, USA",
+      "description": "Leh, Ladakh, India",
       "type": "Point",
-      "coordinates": [-106.822318, 39.190872],
-      "address": "419 S Mill St, Aspen, CO 81611, USA"
+      "coordinates": [77.583938, 34.152588],
+      "address": "Main Bazaar Rd, Leh, Ladakh, India"
     },
     "ratingsAverage": 4.5,
     "ratingsQuantity": 6,
@@ -121,10 +121,10 @@
     "startDates": [
       "2026-01-05T10:00:00.000Z",
       "2026-02-12T10:00:00.000Z",
-      "2023-01-06T10:00:00.000Z"
+      "2026-03-10T10:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c295a",
-    "name": "The Snow Adventurer",
+    "name": "The Snow Adventurer in Ladakh",
     "duration": 4,
     "maxGroupSize": 10,
     "difficulty": "difficult",
@@ -133,33 +133,33 @@
       "5c8a23412f8fb814b56fa18c",
       "5c8a1f4e2f8fb814b56fa185"
     ],
-    "price": 997,
-    "summary": "Exciting adventure in the snow with snowboarding and skiing",
-    "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!\nDolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, exercitation ullamco laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
+    "price": 12997,
+    "summary": "Exciting snow adventure in Ladakh with snowboarding and skiing",
+    "description": "Embark on a thrilling snow adventure in the majestic landscapes of Ladakh. Enjoy skiing and snowboarding across rugged terrains and explore the beauty of the Himalayan ranges. This tour is perfect for thrill-seekers looking for a challenging and exhilarating winter experience in the heart of Ladakh!",
     "imageCover": "tour-3-cover.jpg",
     "locations": [
       {
         "_id": "5c88fa8cf4afda39709c295c",
-        "description": "Aspen Highlands",
+        "description": "Khardung La Pass",
         "type": "Point",
-        "coordinates": [-106.855385, 39.182677],
+        "coordinates": [77.618772, 34.280929],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c295b",
-        "description": "Beaver Creek",
+        "description": "Nubra Valley",
         "type": "Point",
-        "coordinates": [-106.516623, 39.60499],
+        "coordinates": [77.508547, 34.623218],
         "day": 2
       }
     ]
   },
   {
     "startLocation": {
-      "description": "Las Vegas, USA",
+      "description": "Jaisalmer, Rajasthan, India",
       "type": "Point",
-      "coordinates": [-115.172652, 36.110904],
-      "address": "3663 S Las Vegas Blvd, Las Vegas, NV 89109, USA"
+      "coordinates": [70.906597, 26.915696],
+      "address": "Gadisar Lake, Jaisalmer, Rajasthan 345001, India"
     },
     "ratingsAverage": 4.7,
     "ratingsQuantity": 7,
@@ -170,7 +170,7 @@
       "2026-08-12T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c2961",
-    "name": "The Park Camper",
+    "name": "Desert Odyssey",
     "duration": 10,
     "maxGroupSize": 15,
     "difficulty": "medium",
@@ -179,47 +179,47 @@
       "5c8a23412f8fb814b56fa18c",
       "5c8a201e2f8fb814b56fa186"
     ],
-    "price": 1497,
-    "summary": "Breathing in Nature in America's most spectacular National Parks",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!",
+    "price": 14997,
+    "summary": "Experience the mesmerizing deserts of Rajasthan",
+    "description": "Immerse yourself in the enchanting landscapes of Rajasthan's deserts. Enjoy camel rides through golden sands, visit stunning forts, and experience the vibrant local culture. This adventure offers a perfect blend of excitement and relaxation, showcasing the beauty of the Thar Desert and its rich heritage.",
     "imageCover": "tour-5-cover.jpg",
     "locations": [
       {
         "_id": "5c88fa8cf4afda39709c2965",
-        "description": "Zion Canyon National Park",
+        "description": "Sam Sand Dunes",
         "type": "Point",
-        "coordinates": [-112.987418, 37.198125],
+        "coordinates": [70.929547, 26.908258],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c2964",
-        "description": "Antelope Canyon",
+        "description": "Jaisalmer Fort",
         "type": "Point",
-        "coordinates": [-111.376161, 36.86438],
+        "coordinates": [70.917292, 26.915707],
         "day": 4
       },
       {
         "_id": "5c88fa8cf4afda39709c2963",
-        "description": "Grand Canyon National Park",
+        "description": "Kuldhara Village",
         "type": "Point",
-        "coordinates": [-112.115763, 36.058973],
+        "coordinates": [70.855628, 26.929196],
         "day": 5
       },
       {
         "_id": "5c88fa8cf4afda39709c2962",
-        "description": "Joshua Tree National Park",
+        "description": "Desert National Park",
         "type": "Point",
-        "coordinates": [-116.107963, 34.011646],
+        "coordinates": [70.781588, 26.591178],
         "day": 9
       }
     ]
   },
   {
     "startLocation": {
-      "description": "NYC, USA",
+      "description": "New Delhi, India",
       "type": "Point",
-      "coordinates": [-73.985141, 40.75894],
-      "address": "Manhattan, NY 10036, USA"
+      "coordinates": [77.229427, 28.612913],
+      "address": "Rajpath, India Gate, Central Secretariat, New Delhi, Delhi 110001, India"
     },
     "ratingsAverage": 4.6,
     "ratingsQuantity": 5,
@@ -236,97 +236,83 @@
     "difficulty": "easy",
     "guides": ["5c8a22c62f8fb814b56fa18b", "5c8a201e2f8fb814b56fa186"],
     "price": 1197,
-    "summary": "Living the life of Wanderlust in the US' most beatiful cities",
-    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat lorem ipsum dolor sit amet.\nConsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat!",
+    "summary": "Exploring the historic and cultural landmarks of New Delhi",
+    "description": "Experience the grandeur of New Delhi, with a special focus on the iconic India Gate. Enjoy guided tours through the city's rich history and vibrant culture, exploring important landmarks and local attractions. Immerse yourself in the heritage and beauty of India's capital city!\nJoin us for a journey that encompasses the best of what New Delhi has to offer, from its architectural wonders to its bustling markets and delectable cuisine.",
     "imageCover": "tour-4-cover.jpg",
     "locations": [
       {
         "_id": "5c88fa8cf4afda39709c2960",
-        "description": "New York",
+        "description": "India Gate",
         "type": "Point",
-        "coordinates": [-73.967696, 40.781821],
+        "coordinates": [77.229427, 28.612913],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c295f",
-        "description": "Los Angeles",
+        "description": "Red Fort",
         "type": "Point",
-        "coordinates": [-118.324396, 34.097984],
+        "coordinates": [77.24102, 28.656159],
         "day": 3
       },
       {
         "_id": "5c88fa8cf4afda39709c295e",
-        "description": "San Francisco",
+        "description": "Lotus Temple",
         "type": "Point",
-        "coordinates": [-122.408865, 37.787825],
+        "coordinates": [77.258707, 28.553493],
         "day": 5
       }
     ]
   },
   {
     "startLocation": {
-      "description": "California, USA",
+      "description": "Goa, India",
       "type": "Point",
-      "coordinates": [-118.803461, 34.006072],
-      "address": "29130 Cliffside Dr, Malibu, CA 90265, USA"
+      "coordinates": [73.7519, 15.2993],
+      "address": "Goa, India"
     },
-    "ratingsAverage": 3.9,
-    "ratingsQuantity": 7,
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 10,
     "images": ["tour-6-1.jpg", "tour-6-2.jpg", "tour-6-3.jpg"],
     "startDates": [
-      "2025-07-19T09:00:00.000Z",
-      "2025-09-06T09:00:00.000Z",
-      "2026-03-18T10:00:00.000Z"
+      "2025-12-01T10:00:00.000Z",
+      "2026-01-15T09:00:00.000Z",
+      "2026-02-20T09:00:00.000Z"
     ],
-    "_id": "5c88fa8cf4afda39709c2966",
-    "name": "The Sports Lover",
-    "duration": 14,
-    "maxGroupSize": 8,
-    "difficulty": "difficult",
+    "_id": "5c88fa8cf4afda39709c2971",
+    "name": "Beach Blitz",
+    "duration": 7,
+    "maxGroupSize": 15,
+    "difficulty": "medium",
     "guides": [
       "5c8a21f22f8fb814b56fa18a",
       "5c8a1f292f8fb814b56fa184",
-      "5c8a1f4e2f8fb814b56fa185"
+      "5c8a201e2f8fb814b56fa186"
     ],
-    "price": 2997,
-    "summary": "Surfing, skating, parajumping, rock climbing and more, all in one tour",
-    "description": "Nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\nVoluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur!",
+    "price": 39999,
+    "summary": "An exhilarating adventure of water sports and beach fun in Goa",
+    "description": "Join us for the ultimate beach experience in Goa! From thrilling water sports like jet skiing, parasailing, and banana boat rides to relaxing beach volleyball and bonfire nights, there's something for everyone. Enjoy the beautiful sunsets, delicious Goan cuisine, and vibrant nightlife.\n\nWhether you're a thrill-seeker or just looking to unwind, this tour has it all. Explore the stunning beaches, make new friends, and create unforgettable memories along the way!",
     "imageCover": "tour-6-cover.jpg",
     "locations": [
       {
-        "_id": "5c88fa8cf4afda39709c296b",
-        "description": "Point Dume Beach",
+        "_id": "5c88fa8cf4afda39709c2975",
+        "description": "Calangute Beach",
         "type": "Point",
-        "coordinates": [-118.809361, 34.003098],
+        "coordinates": [73.7519, 15.5527],
         "day": 1
       },
       {
-        "_id": "5c88fa8cf4afda39709c296a",
-        "description": "Venice Skate Park",
+        "_id": "5c88fa8cf4afda39709c2974",
+        "description": "Anjuna Beach",
         "type": "Point",
-        "coordinates": [-118.47549, 33.987367],
-        "day": 4
+        "coordinates": [73.7512, 15.5521],
+        "day": 3
       },
       {
-        "_id": "5c88fa8cf4afda39709c2969",
-        "description": "San Diego Skydive",
+        "_id": "5c88fa8cf4afda39709c2973",
+        "description": "Baga Beach",
         "type": "Point",
-        "coordinates": [-116.830104, 33.022843],
-        "day": 6
-      },
-      {
-        "_id": "5c88fa8cf4afda39709c2968",
-        "description": "Kern River Rafting",
-        "type": "Point",
-        "coordinates": [-118.4547, 35.710359],
-        "day": 7
-      },
-      {
-        "_id": "5c88fa8cf4afda39709c2967",
-        "description": "Yosemite National Park",
-        "type": "Point",
-        "coordinates": [-119.600492, 37.742371],
-        "day": 10
+        "coordinates": [73.7521, 15.5522],
+        "day": 5
       }
     ]
   },
@@ -420,50 +406,50 @@
   },
   {
     "startLocation": {
-      "description": "California, USA",
+      "description": "Nashik, India",
       "type": "Point",
-      "coordinates": [-122.29286, 38.294065],
-      "address": "560 Jefferson St, Napa, CA 94559, USA"
+      "coordinates": [73.7519, 20.0],
+      "address": "Sula Vineyards, Nashik, Maharashtra, India"
     },
-    "ratingsAverage": 4.4,
-    "ratingsQuantity": 7,
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 8,
     "images": ["tour-7-1.jpg", "tour-7-2.jpg", "tour-7-3.jpg"],
     "startDates": [
-      "2025-02-12T10:00:00.000Z",
-      "2025-04-14T09:00:00.000Z",
-      "2025-09-01T09:00:00.000Z"
+      "2025-01-15T10:00:00.000Z",
+      "2025-03-10T09:00:00.000Z",
+      "2025-06-20T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c296c",
-    "name": "The Wine Taster",
-    "duration": 5,
-    "maxGroupSize": 8,
+    "name": "Sula Wine Tour",
+    "duration": 3,
+    "maxGroupSize": 10,
     "difficulty": "easy",
     "guides": ["5c8a22c62f8fb814b56fa18b", "5c8a23412f8fb814b56fa18c"],
-    "price": 1997,
-    "summary": "Exquisite wines, scenic views, exclusive barrel tastings,  and much more",
-    "description": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nIrure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price": 4997,
+    "summary": "Experience the best of Indian wines with guided tastings, vineyard tours, and local cuisine.",
+    "description": "Join us for an unforgettable experience at Sula Vineyards, one of India's premier wine destinations. Enjoy guided tours of the picturesque vineyards, learn about the wine-making process, and indulge in exclusive tastings of Sula's finest wines. \nExplore the scenic beauty of Nashik as you savor delicious local cuisine paired with exquisite wines. This tour promises not just great flavors but also stunning views and a relaxing atmosphere.",
     "imageCover": "tour-7-cover.jpg",
     "locations": [
       {
         "_id": "5c88fa8cf4afda39709c296f",
-        "description": "Beringer Vineyards",
+        "description": "Sula Vineyards - Vineyard Tour",
         "type": "Point",
-        "coordinates": [-122.479887, 38.510312],
+        "coordinates": [73.7519, 20.0],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c296e",
-        "description": "Clos Pegase Winery & Tasting Room",
+        "description": "Sula Tasting Room",
         "type": "Point",
-        "coordinates": [-122.582948, 38.585707],
-        "day": 3
+        "coordinates": [73.7519, 20.0],
+        "day": 2
       },
       {
         "_id": "5c88fa8cf4afda39709c296d",
-        "description": "Raymond Vineyard and Cellar",
+        "description": "Local Cuisine Experience",
         "type": "Point",
-        "coordinates": [-122.434697, 38.482181],
-        "day": 5
+        "coordinates": [73.7519, 20.0],
+        "day": 3
       }
     ]
   }

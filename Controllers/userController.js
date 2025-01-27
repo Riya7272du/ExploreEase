@@ -5,41 +5,42 @@ const factory = require("./handlerFactory");
 const multer = require("multer");
 const sharp = require("sharp");
 
-// Configure Multer to use memory storage
-const multerStorage = multer.memoryStorage();
+// const multerStorage = multer.diskStorage({
+//   destination: (req, file, cb) => {
+//     cb(null, "public/img/users");
+//   },
+//   filename: (req, file, cb) => {
+//     const ext = file.mimetype.split("/")[1];
+//     cb(null, `user-${req.user.id}-${Date.now()}.${ext}`);
+//   },
+// });
 
+const multerStorage = multer.memoryStorage();
 const multerFilter = (req, file, cb) => {
-  if (file.mimetype.startsWith("image/")) {
+  if ((file, file.mimetype.startsWith("image"))) {
     cb(null, true);
   } else {
-    cb(new AppError("Not an image! Please upload only images.", 400), false);
+    cb(new AppError("Not an image! Please upload only image", 400), false);
   }
 };
-
 const upload = multer({
   storage: multerStorage,
   fileFilter: multerFilter,
 });
 
-// Middleware to handle image uploads
 exports.uploadUserPhoto = upload.single("photo");
 
-// Middleware to resize the uploaded photo
 exports.resizeUserPhoto = catchAsync(async (req, res, next) => {
   if (!req.file) return next();
-
   req.file.filename = `user-${req.user.id}-${Date.now()}.jpeg`;
-
   await sharp(req.file.buffer)
     .resize(500, 500)
     .toFormat("jpeg")
     .jpeg({ quality: 90 })
     .toFile(`public/img/users/${req.file.filename}`);
-
   next();
 });
 
-// Function to filter allowed fields for update
 const filterObj = (obj, ...allowedFields) => {
   const newObj = {};
   Object.keys(obj).forEach((el) => {
@@ -48,49 +49,40 @@ const filterObj = (obj, ...allowedFields) => {
   return newObj;
 };
 
-// Middleware to set user ID to params
 exports.getMe = (req, res, next) => {
   req.params.id = req.user.id;
+  // console.log(req.params.id);
   next();
 };
 
-// Middleware to update user data
 exports.updateMe = catchAsync(async (req, res, next) => {
-  if (req.body.password || req.body.passwordConfirm) {
-    return next(new AppError("This route is not for updating passwords.", 400));
-  }
+  if (req.body.password || req.body.passwordConfirm)
+    return next(new AppError("This route is not to update password", 201));
 
   const filteredBody = filterObj(req.body, "name", "email");
   if (req.file) filteredBody.photo = req.file.filename;
-
+  console.log(req.file);
   const user = await User.findByIdAndUpdate(req.user._id, filteredBody, {
     new: true,
     runValidators: true,
   });
-
-  if (!user) {
-    return next(new AppError("User not found", 404));
-  }
-
   res.status(200).json({
     status: "success",
     user,
   });
 });
 
-// Placeholder for user creation route
 exports.createUser = (req, res) => {
   res.status(500).json({
-    message: "This route is not yet implemented",
+    message: "This Route is not yet implemented",
   });
 };
 
-// Middleware to deactivate a user
 exports.deleteMe = catchAsync(async (req, res, next) => {
   const user = await User.findByIdAndUpdate(req.user._id, { active: false });
-
+  console.log(user);
   if (!user) {
-    return next(new AppError("User not found", 404));
+    return next(new AppError("Something wrong"));
   }
 
   res.status(204).json({
@@ -99,7 +91,6 @@ exports.deleteMe = catchAsync(async (req, res, next) => {
   });
 });
 
-// CRUD operations using factory functions
 exports.updateUser = factory.updateOne(User);
 exports.getAllUsers = factory.getAll(User);
 exports.getUser = factory.getOne(User);
