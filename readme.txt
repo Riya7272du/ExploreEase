@@ -1,1 +1,1 @@
-tourism site
+ExploreEase site

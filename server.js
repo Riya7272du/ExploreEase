@@ -1,5 +1,6 @@
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
+const cors = require('cors');
 
 process.on("uncaughtException", (err) => {
   console.log(err.name, err.message);
@@ -17,6 +18,7 @@ mongoose.connect(DB, {}).then(() => {
 
 const app = require("./app");
 const PORT = 3000 || process.env.PORT;
+app.use(cors());
 
 console.log(`Environment : ${app.get("env")}`);
 
